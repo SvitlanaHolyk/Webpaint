@@ -1,0 +1,45 @@
+.contact{
+    background-color: $dark-grey-bkgd;
+    color: $light-grey-font;
+    & .conact-header{
+        font-size: 30px;
+        font-weight: 700;
+        padding-bottom: 30px;
+    }
+    & .contact-desc{
+        font-size: 20px;
+    }
+    & .contact-info{
+        width: 455px;
+        margin: 30px auto;
+        font-size: 12px;
+        & .link{
+            margin-right: 20px;
+            text-align: justify;
+        } 
+        & .contact-address::before{
+            content:url('../../img/location.png');
+            padding-right: 5px;
+        }
+        & .contact-tel::before{
+            content:url('../../img/Phone.png');
+            padding-right: 5px;
+        }
+    }
+    & .social{
+        line-height: 38px;
+        & .social-list{
+            margin: 0 auto;
+            width: 200px;
+            @include list;
+            & .img-container{
+                width: 38px;
+                & .social-link{
+                    display: inline-block;
+                    padding: 4px;
+                }
+            }
+        } 
+    }
+    
+}

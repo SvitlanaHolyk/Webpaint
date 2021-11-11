@@ -1,0 +1,9 @@
+.footer{
+    font-size: 14px;
+    background-color: $dark-bkgd;
+    color: $light-grey-font;
+    & .header-footer-inner{
+        text-align: center;
+    }
+    
+}

@@ -1,0 +1,28 @@
+/* Header */
+.header{
+    padding: 20px 0;
+    background-color: $dark-bkgd;
+    .header-logo{
+        width: 107px;
+        float: left;
+            & .logo-link{
+                display: inline-block;
+            }
+    }
+    .nav-list{
+            text-transform: uppercase;
+            font-size: 10px;
+            text-align: right;
+    }
+    .nav-item{
+        display: inline-block; 
+        & .nav-link{
+            padding: 20px;
+            font: 13px;
+            font-weight: 600;
+                &:hover{
+                color: $red;
+                }
+        }    
+    }
+}

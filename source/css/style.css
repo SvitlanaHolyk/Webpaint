@@ -1,0 +1,297 @@
+/*Reset CSS*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/* Global Styles */
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.img-container img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.link {
+  color: #d9d9d9;
+  text-decoration: none;
+}
+
+.header-footer-inner {
+  max-width: 1110px;
+  color: #d9d9d9;
+  margin: 0 auto;
+  height: 60px;
+  line-height: 60px;
+}
+
+.section-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+/* Header */
+.header {
+  padding: 20px 0;
+  background-color: #262626;
+}
+.header .header-logo {
+  width: 107px;
+  float: left;
+}
+.header .header-logo .logo-link {
+  display: inline-block;
+}
+.header .nav-list {
+  text-transform: uppercase;
+  font-size: 10px;
+  text-align: right;
+}
+.header .nav-item {
+  display: inline-block;
+}
+.header .nav-item .nav-link {
+  padding: 20px;
+  font: 13px;
+  font-weight: 600;
+}
+.header .nav-item .nav-link:hover {
+  color: #ff6760;
+}
+
+.portfolio {
+  background-color: #2a2a2a;
+  color: #d9d9d9;
+  letter-spacing: 2px;
+}
+.portfolio .portfolio-header {
+  font-size: 60px;
+  padding-bottom: 15px;
+}
+.portfolio .portfolio-header span {
+  font-weight: 700;
+}
+.portfolio .porfolio-desc {
+  font-size: 25px;
+  padding-bottom: 60px;
+  line-height: 1.5;
+}
+.portfolio .porfolio-button {
+  display: inline-block;
+  width: 198px;
+  height: 50px;
+  line-height: 50px;
+  background-color: #ff6760;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.footer {
+  font-size: 14px;
+  background-color: #262626;
+  color: #d9d9d9;
+}
+.footer .header-footer-inner {
+  text-align: center;
+}
+
+.services {
+  background-color: #f8f8f8;
+  color: #616161;
+}
+.services .services-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.services .services-list .services-item {
+  width: 233px;
+}
+.services .services-list .services-item .img-container {
+  height: 64px;
+}
+.services .services-list .services-item .services-header {
+  font-size: 18px;
+  font-weight: 600;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.services .services-list .services-item .services-desc {
+  line-height: 1.5;
+}
+
+.works {
+  color: #616161;
+}
+.works .works-header {
+  font-size: 30px;
+  font-weight: 700;
+}
+.works .works-desc {
+  font-size: 20px;
+  padding-top: 25px;
+  padding-bottom: 40px;
+}
+.works .works-btn-item {
+  margin-right: 5px;
+  margin-bottom: 25px;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 10px 20px 10px 20px;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 5px;
+  background-color: #ff6760;
+}
+.works .works-btn-item:hover {
+  background-color: #616161;
+}
+.works .works-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.works .works-list .works-item {
+  padding-bottom: 7px;
+  text-align: justify;
+}
+.works .works-list .works-item .works-link {
+  display: inline-block;
+  height: 220px;
+}
+
+.contact {
+  background-color: #2a2a2a;
+  color: #d9d9d9;
+}
+.contact .conact-header {
+  font-size: 30px;
+  font-weight: 700;
+  padding-bottom: 30px;
+}
+.contact .contact-desc {
+  font-size: 20px;
+}
+.contact .contact-info {
+  width: 455px;
+  margin: 30px auto;
+  font-size: 12px;
+}
+.contact .contact-info .link {
+  margin-right: 20px;
+  text-align: justify;
+}
+.contact .contact-info .contact-address::before {
+  content: url("../../img/location.png");
+  padding-right: 5px;
+}
+.contact .contact-info .contact-tel::before {
+  content: url("../../img/Phone.png");
+  padding-right: 5px;
+}
+.contact .social {
+  line-height: 38px;
+}
+.contact .social .social-list {
+  margin: 0 auto;
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.contact .social .social-list .img-container {
+  width: 38px;
+}
+.contact .social .social-list .img-container .social-link {
+  display: inline-block;
+  padding: 4px;
+}

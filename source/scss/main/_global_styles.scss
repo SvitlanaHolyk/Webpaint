@@ -1,0 +1,31 @@
+/* Global Styles */
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.img-container{
+    & img{
+        max-width:100%;
+        vertical-align: middle;
+    }
+}
+.link{
+    color: $light-grey-font;
+    text-decoration: none;
+}
+
+.header-footer-inner{
+    max-width: 1110px;
+    color: $light-grey-font;
+    margin: 0 auto;
+    height: 60px;
+    line-height: 60px;
+}
+.section{
+&-inner{
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+}

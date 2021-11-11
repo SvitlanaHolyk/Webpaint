@@ -1,0 +1,24 @@
+.services{
+    background-color: $light-grey-bkgd;
+    color: $dark-grey-font;
+    .services-list{
+        @include list;
+        & .services-item{
+            width: 233px;
+            & .img-container{
+                height: 64px;
+            }
+            & .services-header{
+                font-size: 18px;
+                font-weight: 600;
+                padding-top: 40px;
+                padding-bottom: 20px;
+            }
+            & .services-desc{
+                line-height: 1.5;
+            }
+        }
+        
+
+    }
+}
